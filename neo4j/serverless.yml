@@ -1,0 +1,21 @@
+service: neo4j-driver-connect
+
+provider:
+  name: aws
+  runtime: python3.8
+  region: us-west-2
+
+functions:
+  main:
+    handler: handler.execute_select
+    events:
+      - http:
+        path: /neo4j_driver/execute_select
+        method: post
+#        authorizer: authorizerFunc
+#          identitySource: method.request.header.Authorization 
+#          resultTtlInSeconds: 3600 # cache the result for 1 hour
+#  authorizerFunc:
+#    handler: handler.authorizerFunc 
+plugins:
+  - serverless-python-requirements
