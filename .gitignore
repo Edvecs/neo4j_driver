@@ -1,0 +1,20 @@
+# Distribution / packaging
+neo4j/.Python
+neo4j/env/
+neo4j/build/
+neo4j/develop-eggs/
+neo4j/dist/
+neo4j/downloads/
+neo4j/eggs/
+neo4j/.eggs/
+neo4j/lib/
+neo4j/lib64/
+neo4j/parts/
+neo4j/sdist/
+neo4j/var/
+neo4j/*.egg-info/
+neo4j/.installed.cfg
+neo4j/*.egg
+
+# Serverless directories
+neo4j/.serverless

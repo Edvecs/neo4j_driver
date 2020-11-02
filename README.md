@@ -56,7 +56,7 @@ curl --header "Content-Type: application/json" \
 
 The Gateway URI can be collected from the AWS Lambda function page or displayed after a successful serverless deploy.
 
-## Testing, monitoring and logg
+## Testing, monitoring and logging
 
 * With Python I could have add unit tests combined with Magic Mock
 * Monitoring can be done with the build in Cloudwatch:  https://aws.amazon.com/cloudwatch/
